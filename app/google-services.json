@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "345932598143",
+    "project_id": "riaz-ddefc",
+    "storage_bucket": "riaz-ddefc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345932598143:android:3c712f327043a4cb65e84a",
+        "android_client_info": {
+          "package_name": "com.example.myapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345932598143-54lnb40va0cebebs8lajmfmdl245t8l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4rud1nk0rQT4Oe6deJ_YIn2rwVr07iyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345932598143-54lnb40va0cebebs8lajmfmdl245t8l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345932598143:android:7684fd803321eea765e84a",
+        "android_client_info": {
+          "package_name": "www.mahin.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345932598143-54lnb40va0cebebs8lajmfmdl245t8l5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4rud1nk0rQT4Oe6deJ_YIn2rwVr07iyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345932598143-54lnb40va0cebebs8lajmfmdl245t8l5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
