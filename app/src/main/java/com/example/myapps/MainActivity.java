@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity implements  View.OnClickList
                     startActivity(intent);
                 }
                 else {
-                    Toast.makeText(getApplicationContext(), "Login In Unsucessfull", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Incorrect email or password ", Toast.LENGTH_SHORT).show();
                 }
 
             }

@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     android:background="@drawable/and"
     tools:context=".Profile">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -13,12 +17,14 @@
         android:text="  BD Health Care"
         android:layout_centerHorizontal="true"
         android:paddingTop="10dp"
+        android:layout_below="@id/heading"
         android:textSize="25dp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         android:id="@+id/title"
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/baseline_medical_services_24"
-        android:paddingBottom="15dp"
+        android:paddingBottom="10dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
 

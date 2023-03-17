@@ -15,6 +15,7 @@ public class Profile extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
         CardView finddoctor = findViewById(R.id.carddoctor);
+        CardView labtest = findViewById(R.id.cardhome);
         finddoctor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -22,5 +23,15 @@ public class Profile extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        labtest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),labtest.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }
