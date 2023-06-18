@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FA0606"
+    android:background="#673AB7"
     tools:context=".DoctorDetails">
 
     <TextView
@@ -290,13 +290,13 @@
                     android:textSize="12sp"/>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Call = 015205492108"
                     android:drawableLeft="@drawable/baseline_add_ic_call_24"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
                     android:textSize="20dp"/>
 
             </LinearLayout>
@@ -346,13 +346,13 @@
                     android:textSize="12sp"/>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Call = 0172683468"
                     android:drawableLeft="@drawable/baseline_add_ic_call_24"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
                     android:textSize="20dp"/>
 
             </LinearLayout>
@@ -401,13 +401,13 @@ Chattogram Maa-O-Shishu Hospital Medical College"
                     android:textSize="12sp"/>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Call = 0172683468"
                     android:drawableLeft="@drawable/baseline_add_ic_call_24"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
                     android:textSize="20dp"/>
 
             </LinearLayout>
@@ -461,7 +461,7 @@ Chattogram Maa-O-Shishu Hospital Medical College"
                     android:drawableLeft="@drawable/baseline_add_ic_call_24"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
                     android:textSize="20dp"/>
 
             </LinearLayout>
@@ -512,13 +512,13 @@ Green Life Medical College and Hospital"
                     android:textSize="12sp"/>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Call = 0172683468"
                     android:drawableLeft="@drawable/baseline_add_ic_call_24"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
                     android:textSize="20dp"/>
 
             </LinearLayout>
@@ -568,13 +568,13 @@ Green Life Medical College and Hospital"
                     android:textSize="12sp"/>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Call = 018427498357"
                     android:drawableLeft="@drawable/baseline_add_ic_call_24"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
                     android:textSize="20dp"/>
 
             </LinearLayout>
@@ -625,13 +625,13 @@ Green Life Medical College and Hospital"
                     android:textSize="12sp"/>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Call = 017926748905"
                     android:drawableLeft="@drawable/baseline_add_ic_call_24"
                     android:textStyle="bold"
                     android:textColor="@color/black"
-                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
                     android:textSize="20dp"/>
 
             </LinearLayout>

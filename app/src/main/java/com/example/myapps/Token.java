@@ -5,6 +5,7 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;
 
 import android.annotation.SuppressLint;
+import android.app.DatePickerDialog;
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.content.Context;
@@ -17,6 +18,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SearchView;
@@ -26,13 +28,16 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 
 public class Token extends AppCompatActivity {
     Button button ;
     private final String CHANNEL_ID = "Inbox Style Notification";
     private final int NOTIFICATION_ID = 1;
     AutoCompleteTextView act;
-    EditText phone , name;
+    EditText phone , name, date;
+    DatePickerDialog datePickerDialog;
+    DatePickerDialog.OnDateSetListener onDateSetListener;
 
     DatabaseReference databaseReference;
 
@@ -73,6 +78,28 @@ public class Token extends AppCompatActivity {
         name=findViewById(R.id.pname);
         act=findViewById(R.id.auto);
         phone=findViewById(R.id.phone);
+
+
+        date =findViewById(R.id.datepick);
+        date.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar calendar = Calendar.getInstance();
+                int year = calendar.get(calendar.YEAR);
+                int month = calendar.get(calendar.MONTH);
+                int day = calendar.get(calendar.DAY_OF_MONTH);
+
+                datePickerDialog =new DatePickerDialog(getApplicationContext(),onDateSetListener,year,month,day);
+                datePickerDialog.show();
+            }
+        });
+        onDateSetListener = new DatePickerDialog.OnDateSetListener() {
+            @Override
+            public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                month=month+1;
+                date.setText(dayOfMonth+"/"+month+"/"+year);
+            }
+        };
 
 
 

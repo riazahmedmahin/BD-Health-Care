@@ -81,7 +81,7 @@
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:hint="Patient Name"
-android:id="@+id/pname"
+       android:id="@+id/pname"
        android:textStyle="bold"
        android:textColor="@color/black"
        android:layout_centerHorizontal="true"
@@ -94,13 +94,30 @@ android:id="@+id/pname"
        android:inputType="textCapSentences"
        />
 
+   <EditText
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:hint="Choose your date"
+       android:id="@+id/datepick"
+       android:textStyle="bold"
+       android:textColor="@color/black"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="490dp"
+       android:drawableLeft="@drawable/baseline_date_range_24"
+       android:ems="13"
+       android:paddingBottom="10dp"
+       android:paddingTop="10dp"
+       android:paddingLeft="10dp"
+       android:inputType="none"
+       android:focusable="false"
+       />
 
 
    <Button
        android:layout_width="wrap_content"
        android:layout_height="wrap_content"
        android:layout_centerHorizontal="true"
-       android:layout_marginTop="550dp"
+       android:layout_marginTop="600dp"
        android:text="Appointment"
        android:background="@drawable/input_bg"
        android:id="@+id/token1"

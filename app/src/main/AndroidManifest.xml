@@ -15,6 +15,15 @@
         android:theme="@style/Theme.MYApps"
         tools:targetApi="31">
         <activity
+            android:name=".list_item"
+            android:exported="false" />
+        <activity
+            android:name=".ambulance"
+            android:exported="false" />
+        <activity
+            android:name=".blood"
+            android:exported="false" />
+        <activity
             android:name=".Token"
             android:exported="false" />
         <activity
